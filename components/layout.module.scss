@@ -1,0 +1,7 @@
+$maxWidth: 36rem;
+$margin: 1rem;
+.container {
+  max-width: $maxWidth;
+  padding: 0 $margin;
+  margin: 3rem auto 6rem;
+}
