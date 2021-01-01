@@ -1,10 +1,14 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../../components/layout'
+import Alert from '../../components/alert'
 
 export default function FirstPost() {
     return (
         <Layout>
+            <Alert type="success">
+                <p>こんにちは、アラートです。</p>
+            </Alert>
             <Head>
                 <title>First Post</title>
             </Head>
